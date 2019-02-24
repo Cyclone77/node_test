@@ -5,3 +5,4 @@ console.log(myURL.href)
 
 myURL.href = 'https://example.com/bar#hash';
 console.log(myURL.href);
+console.log(myURL.toString())
