@@ -1,0 +1,24 @@
+{
+  "name": "node_test",
+  "version": "1.0.0",
+  "description": "1.module 模块",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyclone77/node_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cyclone77/node_test/issues"
+  },
+  "homepage": "https://github.com/Cyclone77/node_test#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mssql": "^4.3.2",
+    "mysql": "^2.16.0"
+  }
+}
