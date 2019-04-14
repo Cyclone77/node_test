@@ -43,7 +43,8 @@ const config = {
 };
 
 sql.connect(config).then(() => {
-    return sql.query(_sqlList.join('\n\r'))
+    //return sql.query(_sqlList.join('\n\r'))
+    return sql.query(`SELECT TOP 5 * FROM DATA_Person_A01`)
 }).then(result => {
     console.dir(result)
 }).catch(err => {
